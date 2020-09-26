@@ -4,7 +4,6 @@ const express = require('express')
 
 const voiceIncoming = require('./controllers/voiceIncoming.js')
 const voiceGather = require('./controllers/voiceGather.js')
-const uuid = require('uuid');
 const sendTextRequest = require('./send_text_request.js')
 const bodyParser = require('body-parser')
 
